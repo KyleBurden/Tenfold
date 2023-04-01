@@ -5,9 +5,29 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(8, 70, 94) !important;
+  color: lightcyan !important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.underline-bottom{
+  padding-bottom: 1rem;
+  border-bottom: 1px solid lightcyan;
+}
+
+.input-box{
+  margin: 1rem;
+  min-height: 3.5rem;
+  min-width: 3.5rem ;
+  background-color: white;
+  cursor:text;
+  color:black;
+  overflow:hidden ;
+  font-size: 2.6rem;
+  text-transform: uppercase ;
+  text-align:center
 }
