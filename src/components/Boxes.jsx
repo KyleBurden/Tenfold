@@ -9,17 +9,17 @@ function Boxes({lives}){
         <>
             {lifeCount.map((i)=>(
                 
-                <Container className="d-flex d-row justify-content-center">
-                <div className="input-box" id={i} contentEditable="true"></div>
-                <div className="input-box" id={i+1} contentEditable="true"></div>
-                <div className="input-box" id={i+2} contentEditable="true"></div>
-                <div className="input-box" id={i+3} contentEditable="true"></div>
-                <div className="input-box" id={i+4} contentEditable="true"></div>
-                <div className="input-box" id={i+5} contentEditable="true"></div>
-                <div className="input-box" id={i+6} contentEditable="true"></div>
-                <div className="input-box" id={i+7} contentEditable="true"></div>
-                <div className="input-box" id={i+8} contentEditable="true"></div>
-                <div className="input-box" id={i+9} contentEditable="true"></div>
+                <Container className="d-flex d-row justify-content-center" key={i}>
+                <div className={"input-box text-cursor box" +i} contentEditable="true"></div>
+                <div className={"input-box text-cursor box" +i} contentEditable="true"></div>
+                <div className={"input-box text-cursor box" +i} contentEditable="true"></div>
+                <div className={"input-box text-cursor box" +i} contentEditable="true"></div>
+                <div className={"input-box text-cursor box" +i} contentEditable="true"></div>
+                <div className={"input-box text-cursor box" +i} contentEditable="true"></div>
+                <div className={"input-box text-cursor box" +i} contentEditable="true"></div>
+                <div className={"input-box text-cursor box" +i} contentEditable="true"></div>
+                <div className={"input-box text-cursor box" +i} contentEditable="true"></div>
+                <div className={"input-box text-cursor box" +i} contentEditable="true"></div>
                 </Container>    
             ))}
         </>

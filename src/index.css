@@ -20,14 +20,15 @@ code {
 }
 
 .input-box{
-  margin: 1rem;
-  min-height: 3.5rem;
-  min-width: 3.5rem ;
+  margin: 0.5rem;
+  max-height: 4rem;
+  min-width: 4rem ;
   background-color: white;
   cursor:text;
   color:black;
   overflow:hidden ;
   font-size: 2.6rem;
   text-transform: uppercase ;
-  text-align:center
+  text-align:center;
+  border: 3px solid purple;
 }
