@@ -32,3 +32,34 @@ code {
   text-align:center;
   border: 3px solid purple;
 }
+
+.text-cursor{
+  cursor:text;
+}
+
+.locked-cursor{
+  cursor:not-allowed;
+}
+
+.background-green{
+  background-color:green;
+}
+
+.background-yellow{
+  background-color:yellow;
+}
+
+.scary{
+  font-family:Sofia;
+}
+
+.answer-box{
+  background-color:rgba(242, 0, 255, 0.3);
+  border-radius: 10px;
+  display:inline-block;
+}
+
+.win-style{
+  color:rgb(0, 255, 0);
+  font-size:5rem;
+}
