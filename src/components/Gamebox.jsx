@@ -88,6 +88,7 @@ function Gamebox(){
         results.forEach(num=>winstatus+=num)
         if(winstatus===369){
             setLife(1000)
+            StatsPage.incrementCorrect()
         }
         else{
             setLife(life-1);
