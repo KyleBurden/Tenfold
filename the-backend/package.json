@@ -1,0 +1,23 @@
+{
+  "name": "tenfold-app",
+  "version": "1.0.0",
+  "description": "Tenfold using MERN",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/KyleBurden/Tenfold.git)"
+  },
+  "author": "Kyle",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongodb": "^5.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
