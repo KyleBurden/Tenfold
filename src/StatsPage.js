@@ -32,7 +32,7 @@ const StatsPage = () => {
 
   return (
     <div>
-      <h2>Stats</h2>
+      <h5>Personal Stats Counter using Local Storage</h5>
       <p>Correct Guesses: {correctGuesses}</p>
       <p>Incorrect Guesses: {incorrectGuesses}</p>
       <button onClick={handleCorrectGuess}>Correct Guess</button>

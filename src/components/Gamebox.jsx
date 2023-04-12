@@ -15,10 +15,10 @@ function Gamebox(){
     
     //fetch wordlists
     async function fetchData(){
-        const URL='http://localhost:3000/words.json';
+        const URL='http://localhost:3030/data';
         const response=await fetch(URL);
         const data=await response.json();
-        setWord(data[parseInt(Math.random()*5)]);        
+        setWord(data[parseInt(Math.random()*15)]);        
     }
 
 
